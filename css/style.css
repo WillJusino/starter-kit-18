@@ -1,0 +1,427 @@
+/* Remove after testing */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+/* -------------------- */
+
+
+
+
+.section-heads {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.section-text {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.campaigns {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #eeeeee;
+}
+
+.caption {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.campaign-link {
+	text-transform: uppercase;
+	font-size: .9em;
+	text-align: center;
+}
+
+
+.untitled {
+  width: 100%;
+  float: left;
+  
+}
+
+#home,
+#encounters,
+#sightings,
+#tracking,
+#media {
+  width: 100%;
+  padding: 100px 20px;
+}
+
+#home,
+#encounters,
+#media {
+  background: #fff;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  padding: 25px 0;
+  background-color: #F6F6F6;
+}
+
+.branding {
+  width: 170px;
+  height: 30px;
+  float: left;
+  display: block;
+	background: url("../images/logotype.svg") no-repeat;
+  text-indent: -999em;
+	/* my first hack */
+}
+
+nav {
+  float: right;
+}
+nav ul{
+  list-style-type: none;
+  text-align: right;
+	padding: 0;
+	margin: 0;
+}
+nav li{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  font-size:.8em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: 20px;
+  cursor: pointer;
+}
+nav li a:link {
+  color: #000000;
+  text-decoration: none;
+}
+nav li a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #FF6600;
+  text-decoration: none;
+}
+nav li a:active {
+  color: #FF6600;
+  text-decoration: none;
+}
+
+.headroom {
+  transition: transform 200ms linear;
+}
+.headroom--pinned{
+  transform: translateY(0%);
+}
+.headroom--unpinned{
+  transform: translateY(-100%);
+}
+
+/*
+=================================
+Parallax CSS SECTIONS
+================================= */
+section.module: last-child {
+  margin-bottom: 0;
+}
+
+section.module: h2 {
+  margin-bottom: 40px;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+}
+
+section.module: p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module: last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 100px 0;
+  background: rgba(246, 92, 81, 1);
+}
+
+section.module3.content {
+  padding: 100px 0;
+  background-color: #F2F2F2;
+}
+
+section.module.parallax {
+  height: 800px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  margin-top: 0;
+  font-size: 20px;
+  color: rgba (255, 255, 255, 0.8);
+  line-height: 800px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.title h1 {
+  color: #ffffff;
+}
+
+.quote{
+  font-size: 1em;
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/pyramid-ufo.jpg");
+  background-color: #58595B;
+}
+
+section.module.parallax-2 {
+  background-image: url("../images/purple-ufo.jpg");
+}
+
+section.module.parallax-3 {
+  background-image: url("../images/map.png");
+}
+
+@media all and (min-width: 600px) {
+  section.moduel h2 {
+    font-size: 42px;
+    color: #fff;
+  }
+   section.moduel p {
+    font-size: 20px;
+  }
+   section.moduel.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.moduel.parallax h1 {
+    font-size: 19px;
+    color: #000000;
+  }
+}
+
+
+
+
+
+/* --Encounters-- */
+.excursions {
+  float: left;
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.ticket {
+  width: 460px;
+  height: 238px;
+  padding: 30px 65px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: url("../images/encounter-ticket.svg") no-repeat;
+}
+
+.ticket-row {
+  padding-bottom: 20px;
+}
+
+.blackhole-icon {
+  height: 40px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  transition: -webkit-transform .8s ease-in-out, -webkit-transform .8s ease-in-out;
+}
+
+.blackhole-icon:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); 
+}
+
+
+
+
+
+
+/* --gallery-- */
+
+#gallery {
+  width: 100%;
+  float: left;
+}
+
+.red {
+  width: 300px;
+  height: 260px;
+  background: #2E97DE;
+}
+
+.boxgrid h3 {
+  margin: 10px 10px 0 10px;
+  color: #fff;
+  font: 18pt Arial, sans-serif;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.boxgrid {
+  width: 300px;
+  height: 260px;
+  float: left;
+  background: #161613;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.boxgrid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.boxgrid p {
+  padding: 0 10px;
+  color: #FF8900;
+  font-weight: bold;
+  font: 10pt 'Montserrat', Arial, sans-serif;
+}
+
+.boxcaption {
+  float: left;
+  position: absolute;
+  background: #000;
+  height: 100px;
+  width: 100%;
+  opacity: .8;
+}
+
+.boxgrid a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.captionfull .boxcaption {
+  top: 260px;
+  left: 0;
+}
+
+.caption .boxcaption {
+  top: 220px;
+  left: 0;
+}
+
+.row {
+  float: left;
+  margin-top: 20px;
+}
+
+
+/* --infographic-- */
+#infographic {
+  width: 100%;
+  padding: 100px 100px;
+}
+
+#infographic {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+#canvas-holder {
+  width: 70%;
+}
+
+
+/* --footer-- */
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  margin-top: 0;
+  text-align: center;
+}
+  
+footer a:link {
+  color: #043480;
+  text-decoration: none;
+  outline: 0;
+}
+
+footer a:visited {
+  color: #F7F7F7;
+  text-decoration: none;
+  outline: 0;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer a:active {
+  color: #ffffff;
+}
+
+#footer-nav h4 {
+  font-size: .8em;
+  margin-bootom: 10px;
+  color: #ffffff;
+}
+.fa-twitter,
+.fa-facebook,
+.fa-youtube,
+.fa-google {
+  font-size: 3em;
+  line-height: 1.2;
+  color: #043480; 
+}
+
+.copyright {
+  background-color: #fff;
+  width: both;
+  color: #959595;
+  padding: 50px 0;
+}
+ 
+#footer-nav {
+  overflow: hidden;
+  clear: both;
+  text-align: left;
+  padding: 100px 0;
+}
+
+copyrght p {
+  margin-bottom: 10px;
+}
+
+#footer-nav p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.peddagogy-brand {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  padding: 0;
+}
